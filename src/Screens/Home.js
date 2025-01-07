@@ -6,7 +6,7 @@ import { GOOGLE_MAP_KEY } from "../constants/googleMapKey";
 import imagePath from "../constants/imagePath";
 
 const Home = ({ navigation }) => {
-    //   const GOOGLE_MAP_API = "AIzaSyD0NSpXHMCN8l6gRO6KXOW1t7yiPUamLA"; // Replace with your API key
+   
 
     const [locations, setLocations] = useState({
         pickup: {
